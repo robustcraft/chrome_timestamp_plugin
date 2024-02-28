@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Convertisseur de Timestamp"
+    },
+    "extensionDescription": {
+        "message": "Convertit les timestamps Unix en heure locale avec précision, ajustant de secondes à nanosecondes."
+    },
+    "pageTitle": {
+        "message": "Convertisseur de Timestamp"
+    },
+    "headerTitle": {
+        "message": "Convertisseur de Timestamp"
+    },
+    "inputPlaceholder": {
+        "message": "Entrez le timestamp"
+    },
+    "getCurrentTimestampButton": {
+        "message": "Obtenir le Timestamp actuel"
+    },
+    "defaultContent": {
+        "message": "Sera affiché ici"
+    },
+    "errorInvalidNumber": {
+        "message": "Erreur : Veuillez entrer un nombre valide"
+    }
+}

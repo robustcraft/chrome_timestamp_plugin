@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Конвертер временных меток"
+    },
+    "extensionDescription": {
+        "message": "Преобразует Unix временные метки в местное время с точностью, корректируя от секунд до наносекунд."
+    },
+    "pageTitle": {
+        "message": "Конвертер временных меток"
+    },
+    "headerTitle": {
+        "message": "Конвертер временных меток"
+    },
+    "inputPlaceholder": {
+        "message": "Введите временную метку"
+    },
+    "getCurrentTimestampButton": {
+        "message": "Получить текущую временную метку"
+    },
+    "defaultContent": {
+        "message": "Будет отображено здесь"
+    },
+    "errorInvalidNumber": {
+        "message": "Ошибка: Введите действительное число"
+    }
+}

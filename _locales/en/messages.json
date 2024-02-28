@@ -1,0 +1,44 @@
+{
+    "extensionName": {
+        "message": "Timestamp Converter"
+    },
+    "extensionDescription": {
+        "message": "Convert Unix timestamps to local time with precision, adjusting for seconds to nanoseconds."
+    },
+    "pageTitle": {
+        "message": "Timestamp Converter"
+    },
+    "headerTitle": {
+        "message": "Timestamp Converter"
+    },
+    "inputPlaceholder": {
+        "message": "Enter timestamp"
+    },
+    "getCurrentTimestampButton": {
+        "message": "Get Current Timestamp"
+    },
+    "defaultContent": {
+        "message": "Will displayed here"
+    },
+    "errorInvalidNumber": {
+        "message": "Error: Please enter a valid number"
+    },
+    "settingsButton": {
+        "message": "Settings"
+    },
+    "interfaceLanguageLabel": {
+        "message": "Interface Language"
+    },
+    "timezoneLabel": {
+        "message": "Timezone"
+    },
+    "timeFormatLabel": {
+        "message": "Time Format"
+    },
+    "saveSettingsButton": {
+        "message": "Save"
+    },
+    "closeSettingsButton": {
+        "message": "Close"
+    }
+}

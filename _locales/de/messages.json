@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Timestamp-Konverter"
+  },
+  "extensionDescription": {
+    "message": "Wandelt Unix-Zeitstempel mit Präzision in Ortszeit um, angepasst von Sekunden bis Nanosekunden."
+  },
+  "pageTitle": {
+    "message": "Timestamp-Konverter"
+  },
+  "headerTitle": {
+    "message": "Timestamp-Konverter"
+  },
+  "inputPlaceholder": {
+    "message": "Zeitstempel eingeben"
+  },
+  "getCurrentTimestampButton": {
+    "message": "Aktuellen Zeitstempel abrufen"
+  },
+  "defaultContent": {
+    "message": "Wird hier angezeigt"
+  },
+  "errorInvalidNumber": {
+    "message": "Fehler: Bitte geben Sie eine gültige Zahl ein"
+  }
+}

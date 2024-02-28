@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "محول الطابع الزمني"
+    },
+    "extensionDescription": {
+        "message": "يحول الطوابع الزمنية لUnix إلى الوقت المحلي بدقة، مع تعديل من ثوانٍ إلى نانوثانية."
+    },
+    "pageTitle": {
+        "message": "محول الطابع الزمني"
+    },
+    "headerTitle": {
+        "message": "محول الطابع الزمني"
+    },
+    "inputPlaceholder": {
+        "message": "أدخل الطابع الزمني"
+    },
+    "getCurrentTimestampButton": {
+        "message": "الحصول على الطابع الزمني الحالي"
+    },
+    "defaultContent": {
+        "message": "سيتم عرضه هنا"
+    },
+    "errorInvalidNumber": {
+        "message": "خطأ: الرجاء إدخال رقم صحيح"
+    }
+}

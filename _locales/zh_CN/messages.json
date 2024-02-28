@@ -1,0 +1,44 @@
+{
+    "extensionName": {
+        "message": "时间戳(Timestamp)转换器"
+    },
+    "extensionDescription": {
+        "message": "轻松将Unix时间戳转换为精确的本地时间，自动识别并调整秒、毫秒、微秒和纳秒。"
+    },
+    "pageTitle": {
+        "message": "Timestamp转换器"
+    },
+    "headerTitle": {
+        "message": "时间戳转换器"
+    },
+    "inputPlaceholder": {
+        "message": "输入时间戳"
+    },
+    "getCurrentTimestampButton": {
+        "message": "获取当前时间戳"
+    },
+    "defaultContent": {
+        "message": "转换后的时间将显示在这里"
+    },
+    "errorInvalidNumber": {
+        "message": "错误：请输入有效的数字"
+    },
+    "settingsButton": {
+        "message": "设置"
+    },
+    "interfaceLanguageLabel": {
+        "message": "界面语言"
+    },
+    "timezoneLabel": {
+        "message": "时区"
+    },
+    "timeFormatLabel": {
+        "message": "时间格式"
+    },
+    "saveSettingsButton": {
+        "message": "保存"
+    },
+    "closeSettingsButton": {
+        "message": "关闭"
+    }
+}

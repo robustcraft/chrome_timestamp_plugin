@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "タイムスタンプ変換器"
+    },
+    "extensionDescription": {
+        "message": "Unixタイムスタンプを正確なローカルタイムに変換し、秒からナノ秒まで自動的に調整します。"
+    },
+    "pageTitle": {
+        "message": "タイムスタンプ変換器"
+    },
+    "headerTitle": {
+        "message": "タイムスタンプ変換器"
+    },
+    "inputPlaceholder": {
+        "message": "タイムスタンプを入力"
+    },
+    "getCurrentTimestampButton": {
+        "message": "現在のタイムスタンプを取得"
+    },
+    "defaultContent": {
+        "message": "ここに表示されます"
+    },
+    "errorInvalidNumber": {
+        "message": "エラー：有効な数字を入力してください"
+    }
+}

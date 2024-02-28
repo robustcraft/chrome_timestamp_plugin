@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="pageTitle">Timestamp Converter</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 20px;
+      width: 250px;
+    }
+
+    .container {
+      max-width: 400px;
+    }
+
+    #datetimeOutput {
+      padding: 8px;
+      /* Reduce padding */
+    }
+
+    #settingsOverlay {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Black w/ opacity */
+    }
+
+    .settings-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      /* 15% from the top and centered */
+      padding: 5px;
+      border: 1px solid #888;
+      width: 80%;
+      /* Could be more or less, depending on screen size */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="h3 mb-3 fw-normal" data-i18n="headerTitle"></h1>
+    <div class="d-flex justify-content-center align-items-center">
+      <input type="text" id="timestampInput" class="form-control" placeholder=""
+        data-i18n-placeholder="inputPlaceholder" required autofocus>
+      <span id="timestampType" class="ms-2"></span>
+    </div>
+    <button class="btn btn-primary mt-2" id="getCurrentTimestamp" data-i18n="getCurrentTimestampButton"></button>
+    <button class="btn btn-secondary mt-2" id="settingsButton" data-i18n="settingsButton"></button>
+    <div id="datetimeOutput" class="alert alert-secondary mt-2" role="alert" data-i18n="defaultContent"></div>
+  </div>
+
+  <!-- The Settings Overlay -->
+  <div id="settingsOverlay">
+    <div class="settings-content">
+      <form>
+        <div class="mb-3">
+          <select class="form-select" id="languageSelect" data-i18n-placeholder="interfaceLanguageLabel">
+            <!-- Options will be dynamically filled or statically defined -->
+            <option selected>English</option>
+            <option>简体中文</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="timezoneInput" data-i18n-placeholder="timezoneLabel">
+        </div>
+        <!-- <div class="mb-3">
+          <input type="text" class="form-control" id="timeFormatInput" data-i18n-placeholder="timeFormatLabel">
+        </div> -->
+        <button type="button" class="btn btn-primary" id="saveSettings" data-i18n="saveSettingsButton"></button>
+        <button type="button" class="btn btn-secondary" id="closeSettings" data-i18n="closeSettingsButton"></button>
+      </form>
+    </div>
+  </div>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
